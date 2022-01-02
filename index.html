@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./resume.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="test.css">
+    <title>Test</title>
+</head>
+
+<body>
+
+    <h1 class="head">Image Gallery</h1>
+    <div class="full-image" id="fullbox">
+        <img src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            id="fullimg" alt="">
+        <div onclick="closeimg()"></div>
+    </div>
+    <div class="container">
+        <div class="content">
+            <img src="./software.png"
+                alt="an image" onClick="openFullimg(this.src)" class="images">
+            <img src="./software.png"
+                alt="an image" onClick="openFullimg(this.src)" class="images">
+            <img src="./software.png"
+                alt="an image" onClick="openFullimg(this.src)" class="images">
+            <img src="./software.png"
+                alt="an image" onClick="openFullimg(this.src)" class="images">
+            <img src="./software.png"
+                alt="an image" onClick="openFullimg(this.src)" class="images">
+            <img src="./software.png"
+                alt="an image" onClick="openFullimg(this.src)" class="images">
+            
+        </div>
+    </div>
+
+
+
+    <script src="test.js"></script>
+</body>
+
+</html>
